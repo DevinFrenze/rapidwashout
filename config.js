@@ -5,9 +5,12 @@
  * access_token
  * access_token_secret
  */
+
+var env = process.env;
+
 module.exports = {  
-  consumer_key: process.env.consumer_key,  
-  consumer_secret: process.env.consumer_secret,
-  access_token: process.env.access_token,  
-  access_token_secret: process.env.access_token_secret 
+  consumer_key: env.TWITTER_CONSUMER_KEY,  
+  consumer_secret: env.TWITTER_CONSUMER_SECRET,
+  access_token: env.TWITTER_ACCESS_TOKEN,  
+  access_token_secret: env.TWITTER_ACCESS_TOKEN_SECRET 
 }

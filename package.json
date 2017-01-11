@@ -2,6 +2,7 @@
   "name": "twitter_bot1",
   "version": "1.0.0",
   "description": "making a twitter bot following tutorial at https://community.risingstack.com/node-js-twitter-bot-tutorial/",
+  "repository": "https://github.com/DevinFrenze/rapidwashout.git",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
