@@ -1,0 +1,19 @@
+{
+  "name": "twitter_bot1",
+  "version": "1.0.0",
+  "description": "making a twitter bot following tutorial at https://community.risingstack.com/node-js-twitter-bot-tutorial/",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "Devin Frenze",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
